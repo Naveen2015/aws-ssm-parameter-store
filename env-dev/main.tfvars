@@ -4,4 +4,5 @@ parameters=[
   {name="dev.frontend.cart_url",value="http://cart-dev.kruthikadevops.online:8080/"},
   {name="dev.frontend.shipping_url",value="http://shipping-dev.kruthikadevops.online:8080/"},
   {name="dev.frontend.payment_url",value="http://payment-dev.kruthikadevops.online:8080/"},
+  {name="dev.catalogue.mongo_endpoint",value="mongod-dev.kruthikadevops.online" }
 ]
