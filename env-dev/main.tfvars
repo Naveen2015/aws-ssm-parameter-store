@@ -7,4 +7,9 @@ parameters=[
   {name="dev.catalogue.mongo_endpoint",value="mongod-dev.kruthikadevops.online" },
   {name="dev.catalogue.mongo",value="MONGO=true" },
   {name="dev.catalogue.mongo_url",value="mongodb://mongod-dev.kruthikadevops.online:27017/catalogue" },
+  {name="dev.user.mongo",value="MONGO=true" },
+  {name="dev.user.redis_host",value="redis-dev.kruthikadevops.online" },
+  {name="dev.user.mongo_url",value="mongodb://mongod-dev.kruthikadevops.online:27017/users" }
 ]
+
+
