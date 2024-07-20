@@ -19,8 +19,8 @@ parameters=[
   {name="dev.payment.cart_host",value="cart-dev.kruthikadevops.online"},
   {name="dev.payment.user_host",value="user-dev.kruthikadevops.online"},
   {name="dev.payment.amqp_host",value="rabbitmq-dev.kruthikadevops.online"},
-  {name="dev.shipping.amqp_user",value="roboshop"},
-  {name="dev.shipping.amqp_pass",value="roboshop123"}
+  {name="dev.payment.amqp_user",value="roboshop"},
+  {name="dev.payment.amqp_pass",value="roboshop123"}
 ]
 
 
