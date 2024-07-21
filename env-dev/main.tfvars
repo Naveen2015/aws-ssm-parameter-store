@@ -12,7 +12,7 @@ parameters=[
   {name="dev.user.mongo_url",value="mongodb://mongod-dev.kruthikadevops.online:27017/users"},
   {name="dev.cart.redis_host",value="redis-dev.kruthikadevops.online"},
   {name="dev.cart.catalogue_host",value="catalogue-dev.kruthikadevops.online"},
-  {name="dev.shipping.cart_host",value="CART_ENDPOINT=cart-dev.kruthikadevops.online:8080"},
+  {name="dev.shipping.cart_host",value="cart-dev.kruthikadevops.online:8080"},
   {name="dev.shipping.mysql_host",value="mysql-dev.kruthikadevops.online"},
   {name="dev.shipping.mysql_username",value="root"},
   {name="dev.shipping.mysql_password",value="RoboShop@1"},
