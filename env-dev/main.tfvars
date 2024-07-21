@@ -15,12 +15,16 @@ parameters=[
   {name="dev.shipping.cart_host",value="cart-dev.kruthikadevops.online:8080"},
   {name="dev.shipping.mysql_host",value="mysql-dev.kruthikadevops.online"},
   {name="dev.shipping.mysql_username",value="root"},
-  {name="dev.shipping.mysql_password",value="RoboShop@1"},
   {name="dev.payment.cart_host",value="cart-dev.kruthikadevops.online"},
   {name="dev.payment.user_host",value="user-dev.kruthikadevops.online"},
   {name="dev.payment.amqp_host",value="rabbitmq-dev.kruthikadevops.online"},
   {name="dev.payment.amqp_user",value="roboshop"},
-  {name="dev.payment.amqp_pass",value="roboshop123"}
+
+]
+
+passwords=[
+  {name="dev.payment.amqp_pass",value="roboshop123"},
+  {name="dev.shipping.mysql_password",value="RoboShop@1"}
 ]
 
 
